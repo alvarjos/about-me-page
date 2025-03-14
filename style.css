@@ -1,0 +1,115 @@
+.body {
+    background-color:#000;
+}
+p {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 150%;
+}
+header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+  } 
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: 12.5rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .page-heading h1, header.masthead .page-heading .h1,
+    header.masthead .site-heading h1,
+    header.masthead .site-heading .h1 {
+      font-size: 5rem;
+    }
+    header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+      font-size: 3.5rem;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 1.875rem;
+    }
+  }
+  header.masthead .site-heading,
+  header.masthead .site-heading .subheading {
+    color: white;
+    text-align-last: center;
+  }
+  header.masthead .page-heading .subheading,
+  header.masthead .site-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading .meta,
+  header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+  }
+
+.homePage-header {
+    display: flex;
+    flex: 3;
+    color: white;
+    flex-direction: column;
+    min-height: 100px;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(116, 235, 173, 0.8);
+}
+.homePage-main {
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+.homePage-sectionbreak {
+    height: 20px;
+    margin-bottom: 20px;
+    /* width: 100%; 
+    /* margin-top: 10px; */
+    border-bottom: 2px solid black; 
+    /* content: ''; */
+    /* display: block; */
+
+}
+.content-section {
+    /* color:#d3bb6b; */
+    color: 000;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.text-decoration-underline {
+    text-decoration: underline !important;
+  }
+.content-section .list-head {
+    text-align: left;
+    font-weight: bold;
+    font-size: 180%;
+    margin-bottom: 20px;
+    color: Blue;
+    margin-top: 40px;
+    
+}
+.content-section .lists {
+    font-size: 150%;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.content-section .section-headers {
+    font-size: 300%;
+    font-weight: bold;
+    text-decoration: underline;
+}
